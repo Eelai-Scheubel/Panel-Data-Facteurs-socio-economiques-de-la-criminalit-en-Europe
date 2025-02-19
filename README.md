@@ -38,7 +38,7 @@ Make sure you have R installed with the following libraries:
 - stargazer
 - AER
 
-The study's key findings include:
+## The study's key findings include:
 - **Unemployment and Crime**: A significant positive relationship between the unemployment rate and homicide rate, indicating that higher unemployment is associated with increased crime levels.
 - **Social Spending as a Buffer**: The interaction term between unemployment and social spending is significant and negative, suggesting that higher social spending mitigates the impact of unemployment on crime.
 - **No Significant Effect of GDP**: Unlike some previous studies, GDP per capita does not appear to have a strong direct influence on homicide rates.
