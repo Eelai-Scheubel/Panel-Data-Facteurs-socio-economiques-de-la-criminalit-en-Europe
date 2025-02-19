@@ -38,8 +38,8 @@ education <- load_and_filter_data("https://ourworldindata.org/grapher/total-gove
 homicide <- load_and_filter_data("https://ourworldindata.org/grapher/homicide-rate-unodc.csv?v=1&csvType=full")
 urban <- load_and_filter_data("https://ourworldindata.org/grapher/urban-population-share-2050.csv?v=1&csvType=full")
 democracy <- load_and_filter_data("https://ourworldindata.org/grapher/democracy-index-eiu.csv?v=1&csvType=full")
-pss <- load_excel_data("C:/Users/eelai/OneDrive/Documents/Master 1/Econométrie appliquée/Projet Panel Econometrics/social expenditure oecd.xlsx")
-immigration <- load_excel_data("C:/Users/eelai/OneDrive/Documents/Master 1/Econométrie appliquée/Projet Panel Econometrics/Immigration.xlsx")
+pss <- load_excel_data("social expenditure oecd.xlsx")
+immigration <- load_excel_data("Immigration.xlsx")
 
 # Fusion des données
 df <- cbind(homicide, gdp[, 3], unemp[, 3], gini[, 3], pss[, 3], education[, 3], urban[, 3], immigration[, 3], democracy[, 3])
