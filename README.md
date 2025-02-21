@@ -1,48 +1,52 @@
-# Panel-Data-Socioeconomic-Factors-of-Crime-in-Europe
+# Facteurs Socioéconomiques du Crime en Europe – Données de Panel
 
-## Project Description
-This project analyzes the socio-economic determinants of crime in Europe, highlighting the impact of unemployment and social policies on homicide rates. The study is conducted using an econometric model based on panel data covering 22 European countries from 2011 to 2019.
+## Description du Projet  
+Ce projet analyse les déterminants socio-économiques du crime en Europe, en mettant en évidence l'impact du chômage et des politiques sociales sur les taux d’homicide. L’étude est réalisée à l’aide d’un modèle économétrique basé sur des données de panel couvrant 22 pays européens entre 2011 et 2019.  
 
-## Methodology
-The analysis is based on econometric models with different specifications:
-- **OLS Regression Model** (Ordinary Least Squares)
-- **Fixed Effects Model**
-- **Random Effects Model**
+## Méthodologie  
+L’analyse repose sur des modèles économétriques avec différentes spécifications :  
+- **Régression par Moindres Carrés Ordinaires (MCO)**  
+- **Modèle à Effets Fixes**  
+- **Modèle à Effets Aléatoires**  
 
-The data used comes from reputable sources such as the World Bank, OECD, UN, and Eurostat.
+Les données utilisées proviennent de sources reconnues telles que la Banque mondiale, l’OCDE, l’ONU et Eurostat.  
 
-## Data and Variables
-- **Dependent Variable**: Homicide rate (per 100,000 inhabitants)
-- **Explanatory Variables**:
-  - GDP per capita
-  - Unemployment rate
-  - Gini coefficient (income inequality)
-  - Social spending (% of GDP)
-  - Education spending (% of GDP)
-  - Urbanization rate
-  - Immigration flow
-  - Democracy index
-  - Interaction effect (Moderating effect of social spending on the impact of unemployment)
+## Données et Variables  
+### Variable dépendante  
+- Taux d’homicide (pour 100 000 habitants)  
 
-## Installation and Usage
-### Prerequisites
-Make sure you have R installed with the following libraries:
-- jsonlite
-- readxl
-- dplyr
-- tidyr
-- plm
-- corrplot
-- lmtest
-- sandwich
-- stargazer
-- AER
+### Variables explicatives  
+- PIB par habitant  
+- Taux de chômage  
+- Coefficient de Gini (inégalités de revenu)  
+- Dépenses sociales (% du PIB)  
+- Dépenses en éducation (% du PIB)  
+- Taux d’urbanisation  
+- Flux migratoires  
+- Indice de démocratie  
+- Effet d’interaction (Effet modérateur des dépenses sociales sur l’impact du chômage)  
 
-## The study's key findings include:
-- **Unemployment and Crime**: A significant positive relationship between the unemployment rate and homicide rate, indicating that higher unemployment is associated with increased crime levels.
-- **Social Spending as a Buffer**: The interaction term between unemployment and social spending is significant and negative, suggesting that higher social spending mitigates the impact of unemployment on crime.
-- **No Significant Effect of GDP**: Unlike some previous studies, GDP per capita does not appear to have a strong direct influence on homicide rates.
-- **Democracy and Crime**: A higher democracy index is weakly linked with lower crime rates, but this relationship requires further study.
-- **No Link Between Immigration and Crime**: The analysis does not support the hypothesis of a significant relationship between immigration levels and crime rates.
+## Installation et Utilisation  
+### Prérequis  
+Assurez-vous d’avoir R installé avec les bibliothèques suivantes :  
+- `jsonlite`  
+- `readxl`  
+- `dplyr`  
+- `tidyr`  
+- `plm`  
+- `corrplot`  
+- `lmtest`  
+- `sandwich`  
+- `stargazer`  
+- `AER`  
 
-- Visualization of correlations and fixed effects by country
+## Principaux Résultats de l’Étude  
+- **Chômage et Criminalité** : Une relation positive et significative entre le taux de chômage et le taux d’homicide, indiquant qu’un chômage plus élevé est associé à une augmentation de la criminalité.  
+- **Les Dépenses Sociales comme Amortisseur** : Le terme d’interaction entre le chômage et les dépenses sociales est significatif et négatif, suggérant que des dépenses sociales plus élevées atténuent l’impact du chômage sur la criminalité.  
+- **Aucun Effet Significatif du PIB** : Contrairement à certaines études précédentes, le PIB par habitant ne semble pas avoir une influence directe sur les taux d’homicide.  
+- **Démocratie et Criminalité** : Un indice de démocratie plus élevé est faiblement lié à des taux de criminalité plus bas, mais cette relation mérite une analyse plus approfondie.  
+- **Aucun Lien Entre Immigration et Criminalité** : L’analyse ne soutient pas l’hypothèse d’une relation significative entre les niveaux d’immigration et les taux de criminalité.  
+
+## Visualisation  
+- Corrélations entre variables  
+- Effets fixes par pays  
