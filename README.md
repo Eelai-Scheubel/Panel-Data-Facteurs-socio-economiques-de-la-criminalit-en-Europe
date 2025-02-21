@@ -42,10 +42,10 @@ Assurez-vous d’avoir R installé avec les bibliothèques suivantes :
 
 ## Principaux Résultats de l’Étude  
 - **Chômage et Criminalité** : Une relation positive et significative entre le taux de chômage et le taux d’homicide, indiquant qu’un chômage plus élevé est associé à une augmentation de la criminalité.  
-- **Les Dépenses Sociales comme Amortisseur** : Le terme d’interaction entre le chômage et les dépenses sociales est significatif et négatif, suggérant que des dépenses sociales plus élevées atténuent l’impact du chômage sur la criminalité.  
-- **Aucun Effet Significatif du PIB** : Contrairement à certaines études précédentes, le PIB par habitant ne semble pas avoir une influence directe sur les taux d’homicide.  
+- **Les dépenses sociales comme effet modérateur** : Le terme d’interaction entre le chômage et les dépenses sociales est significatif et négatif, suggérant que des dépenses sociales plus élevées atténuent l’impact du chômage sur la criminalité.  
+- **Aucun effet significatif du PIB par habitant** : Contrairement à certaines études précédentes, le PIB par habitant ne semble pas avoir une influence directe sur les taux d’homicide.  
 - **Démocratie et Criminalité** : Un indice de démocratie plus élevé est faiblement lié à des taux de criminalité plus bas, mais cette relation mérite une analyse plus approfondie.  
-- **Aucun Lien Entre Immigration et Criminalité** : L’analyse ne soutient pas l’hypothèse d’une relation significative entre les niveaux d’immigration et les taux de criminalité.  
+- **Aucun lien entre Immigration et Criminalité** : L’analyse ne soutient pas l’hypothèse d’une relation significative entre les niveaux d’immigration et les taux de criminalité.  
 
 ## Visualisation  
 - Corrélations entre variables  
